@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SQPRecommendViewController">
+            <connections>
+                <outlet property="categoryTableView" destination="p7j-Kr-TgO" id="ekq-lm-NFN"/>
+                <outlet property="userTableView" destination="LYM-fX-amf" id="gDJ-zo-2h3"/>
+                <outlet property="view" destination="7v6-rF-Glr" id="Wrw-ct-4wz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="7v6-rF-Glr">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="LYM-fX-amf" userLabel="右侧">
+                    <rect key="frame" x="70" y="0.0" width="530" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="0PJ-o2-cGc"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="p7j-Kr-TgO" userLabel="左侧">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="RZA-XY-xwA"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="PW5-5K-Kfm"/>
+                        <outlet property="delegate" destination="-1" id="dRi-Ta-FYn"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LYM-fX-amf" firstAttribute="leading" secondItem="p7j-Kr-TgO" secondAttribute="trailing" id="1nT-HZ-do0"/>
+                <constraint firstItem="p7j-Kr-TgO" firstAttribute="top" secondItem="7v6-rF-Glr" secondAttribute="top" id="2El-Z4-zok"/>
+                <constraint firstItem="LYM-fX-amf" firstAttribute="top" secondItem="7v6-rF-Glr" secondAttribute="top" id="DDY-dw-DAQ"/>
+                <constraint firstAttribute="bottom" secondItem="p7j-Kr-TgO" secondAttribute="bottom" id="IN3-il-Jgu"/>
+                <constraint firstAttribute="trailing" secondItem="LYM-fX-amf" secondAttribute="trailing" id="fxJ-dS-yhD"/>
+                <constraint firstItem="p7j-Kr-TgO" firstAttribute="leading" secondItem="7v6-rF-Glr" secondAttribute="leading" id="urI-u1-qcK"/>
+                <constraint firstAttribute="bottom" secondItem="LYM-fX-amf" secondAttribute="bottom" id="wrc-U6-WFs"/>
+            </constraints>
+            <point key="canvasLocation" x="499" y="363"/>
+        </view>
+    </objects>
+</document>

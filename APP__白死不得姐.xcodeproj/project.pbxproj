@@ -1,0 +1,1069 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D1A47D90EEBD1AA330AFA4 /* Pods_APP_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FE8C4ED048909CFF7BF1C2 /* Pods_APP_______.framework */; };
+		714281841D0FF71B00379436 /* SQPTopicWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 714281831D0FF71B00379436 /* SQPTopicWindow.m */; };
+		715CC7551D129F330060B3C5 /* UIImage+SQPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 715CC7541D129F330060B3C5 /* UIImage+SQPExtension.m */; };
+		716E82DE1D0CFFCF00693E66 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E82DD1D0CFFCF00693E66 /* Foundation+Log.m */; };
+		716E82E01D0D00D100693E66 /* SQPFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E82DF1D0D00D100693E66 /* SQPFriendTrendsViewController.xib */; };
+		716E82E41D0D021100693E66 /* SQPRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E82E21D0D021100693E66 /* SQPRecommendViewController.m */; };
+		716E82E51D0D021100693E66 /* SQPRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E82E31D0D021100693E66 /* SQPRecommendViewController.xib */; };
+		716E82E91D0D02AD00693E66 /* SQPRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E82E71D0D02AD00693E66 /* SQPRecommendCategoryCell.m */; };
+		716E82EA1D0D02AD00693E66 /* SQPRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E82E81D0D02AD00693E66 /* SQPRecommendCategoryCell.xib */; };
+		716E82ED1D0D02F100693E66 /* SQPRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E82EC1D0D02F100693E66 /* SQPRecommendCategory.m */; };
+		716E82F01D0D030F00693E66 /* SQPRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E82EF1D0D030F00693E66 /* SQPRecommendUser.m */; };
+		716E82F31D0D033200693E66 /* SQPRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E82F21D0D033200693E66 /* SQPRecommendUserCell.m */; };
+		716E82F51D0D036000693E66 /* SQPRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E82F41D0D036000693E66 /* SQPRecommendUserCell.xib */; };
+		716E82F81D0D0AF200693E66 /* SQPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E82F71D0D0AF200693E66 /* SQPTextField.m */; };
+		716E82FB1D0D0B4600693E66 /* SQPLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E82FA1D0D0B4600693E66 /* SQPLoginRegisterViewController.m */; };
+		716E82FD1D0D0B5800693E66 /* SQPLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E82FC1D0D0B5800693E66 /* SQPLoginRegisterViewController.xib */; };
+		716E83051D0D3DC100693E66 /* SQPRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83041D0D3DC100693E66 /* SQPRecommendTagsViewController.m */; };
+		716E83081D0D3DD900693E66 /* SQPTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83071D0D3DD900693E66 /* SQPTopicViewController.m */; };
+		716E830C1D0D3DFA00693E66 /* SQPShowPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E830A1D0D3DFA00693E66 /* SQPShowPictureViewController.m */; };
+		716E830D1D0D3DFA00693E66 /* SQPShowPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E830B1D0D3DFA00693E66 /* SQPShowPictureViewController.xib */; };
+		716E83111D0D3E1500693E66 /* SQPCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E830F1D0D3E1500693E66 /* SQPCommentViewController.m */; };
+		716E83121D0D3E1500693E66 /* SQPCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E83101D0D3E1500693E66 /* SQPCommentViewController.xib */; };
+		716E83151D0D3E2E00693E66 /* SQPRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83141D0D3E2E00693E66 /* SQPRecommendTag.m */; };
+		716E83181D0D3E4500693E66 /* SQPTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83171D0D3E4500693E66 /* SQPTopic.m */; };
+		716E831B1D0D3E5B00693E66 /* SQPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E831A1D0D3E5B00693E66 /* SQPUser.m */; };
+		716E831E1D0D3E7100693E66 /* SQPComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E831D1D0D3E7100693E66 /* SQPComment.m */; };
+		716E83211D0D3EB500693E66 /* SQPProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83201D0D3EB500693E66 /* SQPProgressView.m */; };
+		716E83251D0D3F0400693E66 /* SQPRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83231D0D3F0400693E66 /* SQPRecommendTagCell.m */; };
+		716E83261D0D3F0400693E66 /* SQPRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E83241D0D3F0400693E66 /* SQPRecommendTagCell.xib */; };
+		716E832A1D0D3F1F00693E66 /* SQPTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83281D0D3F1F00693E66 /* SQPTopicCell.m */; };
+		716E832B1D0D3F1F00693E66 /* SQPTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E83291D0D3F1F00693E66 /* SQPTopicCell.xib */; };
+		716E832E1D0D3F3B00693E66 /* SQPTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E832D1D0D3F3B00693E66 /* SQPTopicPictureView.m */; };
+		716E83301D0D3F4A00693E66 /* SQPTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E832F1D0D3F4A00693E66 /* SQPTopicPictureView.xib */; };
+		716E83331D0D3F7000693E66 /* SQPTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83321D0D3F7000693E66 /* SQPTopicVoiceView.m */; };
+		716E83371D0D3F9600693E66 /* SQPTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E83361D0D3F9600693E66 /* SQPTopicVoiceView.xib */; };
+		716E833A1D0D3FB400693E66 /* SQPTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83391D0D3FB400693E66 /* SQPTopicVideoView.m */; };
+		716E833C1D0D3FC200693E66 /* SQPTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E833B1D0D3FC200693E66 /* SQPTopicVideoView.xib */; };
+		716E833F1D0D400300693E66 /* SQPCommentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E833E1D0D400300693E66 /* SQPCommentHeaderView.m */; };
+		716E83431D0D403C00693E66 /* SQPCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E83411D0D403C00693E66 /* SQPCommentCell.m */; };
+		716E83441D0D403C00693E66 /* SQPCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716E83421D0D403C00693E66 /* SQPCommentCell.xib */; };
+		719111251D17D30500757270 /* SQPMeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 719111241D17D30500757270 /* SQPMeTableViewCell.m */; };
+		719111281D17DBD400757270 /* SQPMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719111271D17DBD400757270 /* SQPMeFooterView.m */; };
+		71956D3D1D1878860079C782 /* SQPSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 71956D3C1D1878860079C782 /* SQPSquare.m */; };
+		71956D401D1878860079C782 /* SQPSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71956D3F1D1878860079C782 /* SQPSquareButton.m */; };
+		71C5A7E11D06B46A005CF025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A7E01D06B46A005CF025 /* main.m */; };
+		71C5A7E41D06B46A005CF025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A7E31D06B46A005CF025 /* AppDelegate.m */; };
+		71C5A7EC1D06B46A005CF025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C5A7EB1D06B46A005CF025 /* Assets.xcassets */; };
+		71C5A7FA1D06B46A005CF025 /* APP_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A7F91D06B46A005CF025 /* APP_______Tests.m */; };
+		71C5A8051D06B46A005CF025 /* APP_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8041D06B46A005CF025 /* APP_______UITests.m */; };
+		71C5A8441D06B4A3005CF025 /* NSDate+SQPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8281D06B4A3005CF025 /* NSDate+SQPExtension.m */; };
+		71C5A8451D06B4A3005CF025 /* UIBarButtonItem+SQPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A82A1D06B4A3005CF025 /* UIBarButtonItem+SQPExtension.m */; };
+		71C5A8461D06B4A3005CF025 /* UIView+SQPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A82C1D06B4A3005CF025 /* UIView+SQPExtension.m */; };
+		71C5A8471D06B4A3005CF025 /* SQPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A82F1D06B4A3005CF025 /* SQPNavigationController.m */; };
+		71C5A8481D06B4A3005CF025 /* SQPPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8311D06B4A3005CF025 /* SQPPublishViewController.m */; };
+		71C5A8491D06B4A3005CF025 /* SQPPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C5A8321D06B4A3005CF025 /* SQPPublishViewController.xib */; };
+		71C5A84A1D06B4A3005CF025 /* SQPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8341D06B4A3005CF025 /* SQPTabBarController.m */; };
+		71C5A84D1D06B4A3005CF025 /* SQPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A83A1D06B4A3005CF025 /* SQPConst.m */; };
+		71C5A84E1D06B4A3005CF025 /* SQPPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A83D1D06B4A3005CF025 /* SQPPushGuideView.m */; };
+		71C5A84F1D06B4A3005CF025 /* SQPPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C5A83E1D06B4A3005CF025 /* SQPPushGuideView.xib */; };
+		71C5A8501D06B4A3005CF025 /* SQPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8401D06B4A3005CF025 /* SQPTabBar.m */; };
+		71C5A8551D06B8A4005CF025 /* SQPFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8541D06B8A4005CF025 /* SQPFriendTrendsViewController.m */; };
+		71C5A8581D06B8BE005CF025 /* SQPEssencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8571D06B8BE005CF025 /* SQPEssencesViewController.m */; };
+		71C5A85B1D06B8D1005CF025 /* SQPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A85A1D06B8D1005CF025 /* SQPMeViewController.m */; };
+		71C5A85E1D06B8E3005CF025 /* SQPNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A85D1D06B8E3005CF025 /* SQPNewViewController.m */; };
+		71C5A8AD1D06BAB7005CF025 /* SQPVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C5A8AC1D06BAB7005CF025 /* SQPVerticalButton.m */; };
+		71F50B911D1286C500E57A47 /* UIImageView+SQPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F50B901D1286C500E57A47 /* UIImageView+SQPExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71C5A7F61D06B46A005CF025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71C5A7D41D06B46A005CF025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C5A7DB1D06B46A005CF025;
+			remoteInfo = "APP__白死不得姐";
+		};
+		71C5A8011D06B46A005CF025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71C5A7D41D06B46A005CF025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C5A7DB1D06B46A005CF025;
+			remoteInfo = "APP__白死不得姐";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FEA7C3FD022FEDA6356C0C /* Pods-APP__白死不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APP__白死不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APP__白死不得姐/Pods-APP__白死不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+		714281821D0FF71B00379436 /* SQPTopicWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTopicWindow.h; sourceTree = "<group>"; };
+		714281831D0FF71B00379436 /* SQPTopicWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTopicWindow.m; sourceTree = "<group>"; };
+		715CC7531D129F320060B3C5 /* UIImage+SQPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SQPExtension.h"; sourceTree = "<group>"; };
+		715CC7541D129F330060B3C5 /* UIImage+SQPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SQPExtension.m"; sourceTree = "<group>"; };
+		716E82DD1D0CFFCF00693E66 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		716E82DF1D0D00D100693E66 /* SQPFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		716E82E11D0D021100693E66 /* SQPRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPRecommendViewController.h; sourceTree = "<group>"; };
+		716E82E21D0D021100693E66 /* SQPRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPRecommendViewController.m; sourceTree = "<group>"; };
+		716E82E31D0D021100693E66 /* SQPRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPRecommendViewController.xib; sourceTree = "<group>"; };
+		716E82E61D0D02AD00693E66 /* SQPRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPRecommendCategoryCell.h; sourceTree = "<group>"; };
+		716E82E71D0D02AD00693E66 /* SQPRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPRecommendCategoryCell.m; sourceTree = "<group>"; };
+		716E82E81D0D02AD00693E66 /* SQPRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		716E82EB1D0D02F100693E66 /* SQPRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPRecommendCategory.h; sourceTree = "<group>"; };
+		716E82EC1D0D02F100693E66 /* SQPRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPRecommendCategory.m; sourceTree = "<group>"; };
+		716E82EE1D0D030F00693E66 /* SQPRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPRecommendUser.h; sourceTree = "<group>"; };
+		716E82EF1D0D030F00693E66 /* SQPRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPRecommendUser.m; sourceTree = "<group>"; };
+		716E82F11D0D033200693E66 /* SQPRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPRecommendUserCell.h; sourceTree = "<group>"; };
+		716E82F21D0D033200693E66 /* SQPRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPRecommendUserCell.m; sourceTree = "<group>"; };
+		716E82F41D0D036000693E66 /* SQPRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPRecommendUserCell.xib; sourceTree = "<group>"; };
+		716E82F61D0D0AF200693E66 /* SQPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTextField.h; sourceTree = "<group>"; };
+		716E82F71D0D0AF200693E66 /* SQPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTextField.m; sourceTree = "<group>"; };
+		716E82F91D0D0B4600693E66 /* SQPLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQPLoginRegisterViewController.h; path = ../Model/SQPLoginRegisterViewController.h; sourceTree = "<group>"; };
+		716E82FA1D0D0B4600693E66 /* SQPLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQPLoginRegisterViewController.m; path = ../Model/SQPLoginRegisterViewController.m; sourceTree = "<group>"; };
+		716E82FC1D0D0B5800693E66 /* SQPLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SQPLoginRegisterViewController.xib; path = ../Model/SQPLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		716E83031D0D3DC100693E66 /* SQPRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPRecommendTagsViewController.h; sourceTree = "<group>"; };
+		716E83041D0D3DC100693E66 /* SQPRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPRecommendTagsViewController.m; sourceTree = "<group>"; };
+		716E83061D0D3DD900693E66 /* SQPTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTopicViewController.h; sourceTree = "<group>"; };
+		716E83071D0D3DD900693E66 /* SQPTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTopicViewController.m; sourceTree = "<group>"; };
+		716E83091D0D3DFA00693E66 /* SQPShowPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPShowPictureViewController.h; sourceTree = "<group>"; };
+		716E830A1D0D3DFA00693E66 /* SQPShowPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPShowPictureViewController.m; sourceTree = "<group>"; };
+		716E830B1D0D3DFA00693E66 /* SQPShowPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPShowPictureViewController.xib; sourceTree = "<group>"; };
+		716E830E1D0D3E1500693E66 /* SQPCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPCommentViewController.h; sourceTree = "<group>"; };
+		716E830F1D0D3E1500693E66 /* SQPCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPCommentViewController.m; sourceTree = "<group>"; };
+		716E83101D0D3E1500693E66 /* SQPCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPCommentViewController.xib; sourceTree = "<group>"; };
+		716E83131D0D3E2E00693E66 /* SQPRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPRecommendTag.h; sourceTree = "<group>"; };
+		716E83141D0D3E2E00693E66 /* SQPRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPRecommendTag.m; sourceTree = "<group>"; };
+		716E83161D0D3E4500693E66 /* SQPTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTopic.h; sourceTree = "<group>"; };
+		716E83171D0D3E4500693E66 /* SQPTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTopic.m; sourceTree = "<group>"; };
+		716E83191D0D3E5B00693E66 /* SQPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPUser.h; sourceTree = "<group>"; };
+		716E831A1D0D3E5B00693E66 /* SQPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPUser.m; sourceTree = "<group>"; };
+		716E831C1D0D3E7100693E66 /* SQPComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPComment.h; sourceTree = "<group>"; };
+		716E831D1D0D3E7100693E66 /* SQPComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPComment.m; sourceTree = "<group>"; };
+		716E831F1D0D3EB500693E66 /* SQPProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPProgressView.h; sourceTree = "<group>"; };
+		716E83201D0D3EB500693E66 /* SQPProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPProgressView.m; sourceTree = "<group>"; };
+		716E83221D0D3F0400693E66 /* SQPRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPRecommendTagCell.h; sourceTree = "<group>"; };
+		716E83231D0D3F0400693E66 /* SQPRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPRecommendTagCell.m; sourceTree = "<group>"; };
+		716E83241D0D3F0400693E66 /* SQPRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPRecommendTagCell.xib; sourceTree = "<group>"; };
+		716E83271D0D3F1F00693E66 /* SQPTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTopicCell.h; sourceTree = "<group>"; };
+		716E83281D0D3F1F00693E66 /* SQPTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTopicCell.m; sourceTree = "<group>"; };
+		716E83291D0D3F1F00693E66 /* SQPTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPTopicCell.xib; sourceTree = "<group>"; };
+		716E832C1D0D3F3B00693E66 /* SQPTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTopicPictureView.h; sourceTree = "<group>"; };
+		716E832D1D0D3F3B00693E66 /* SQPTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTopicPictureView.m; sourceTree = "<group>"; };
+		716E832F1D0D3F4A00693E66 /* SQPTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPTopicPictureView.xib; sourceTree = "<group>"; };
+		716E83311D0D3F7000693E66 /* SQPTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTopicVoiceView.h; sourceTree = "<group>"; };
+		716E83321D0D3F7000693E66 /* SQPTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTopicVoiceView.m; sourceTree = "<group>"; };
+		716E83361D0D3F9600693E66 /* SQPTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPTopicVoiceView.xib; sourceTree = "<group>"; };
+		716E83381D0D3FB400693E66 /* SQPTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTopicVideoView.h; sourceTree = "<group>"; };
+		716E83391D0D3FB400693E66 /* SQPTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTopicVideoView.m; sourceTree = "<group>"; };
+		716E833B1D0D3FC200693E66 /* SQPTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPTopicVideoView.xib; sourceTree = "<group>"; };
+		716E833D1D0D400300693E66 /* SQPCommentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPCommentHeaderView.h; sourceTree = "<group>"; };
+		716E833E1D0D400300693E66 /* SQPCommentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPCommentHeaderView.m; sourceTree = "<group>"; };
+		716E83401D0D403C00693E66 /* SQPCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPCommentCell.h; sourceTree = "<group>"; };
+		716E83411D0D403C00693E66 /* SQPCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPCommentCell.m; sourceTree = "<group>"; };
+		716E83421D0D403C00693E66 /* SQPCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPCommentCell.xib; sourceTree = "<group>"; };
+		719111231D17D30400757270 /* SQPMeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPMeTableViewCell.h; sourceTree = "<group>"; };
+		719111241D17D30500757270 /* SQPMeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPMeTableViewCell.m; sourceTree = "<group>"; };
+		719111261D17DBD400757270 /* SQPMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPMeFooterView.h; sourceTree = "<group>"; };
+		719111271D17DBD400757270 /* SQPMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPMeFooterView.m; sourceTree = "<group>"; };
+		71956D3B1D1878860079C782 /* SQPSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPSquare.h; sourceTree = "<group>"; };
+		71956D3C1D1878860079C782 /* SQPSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPSquare.m; sourceTree = "<group>"; };
+		71956D3E1D1878860079C782 /* SQPSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPSquareButton.h; sourceTree = "<group>"; };
+		71956D3F1D1878860079C782 /* SQPSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPSquareButton.m; sourceTree = "<group>"; };
+		71C5A7DC1D06B46A005CF025 /* APP__白死不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APP__白死不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C5A7E01D06B46A005CF025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71C5A7E21D06B46A005CF025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71C5A7E31D06B46A005CF025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71C5A7EB1D06B46A005CF025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71C5A7F01D06B46A005CF025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C5A7F51D06B46A005CF025 /* APP__白死不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APP__白死不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C5A7F91D06B46A005CF025 /* APP_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "APP_______Tests.m"; sourceTree = "<group>"; };
+		71C5A7FB1D06B46A005CF025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C5A8001D06B46A005CF025 /* APP__白死不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APP__白死不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C5A8041D06B46A005CF025 /* APP_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "APP_______UITests.m"; sourceTree = "<group>"; };
+		71C5A8061D06B46A005CF025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C5A8271D06B4A3005CF025 /* NSDate+SQPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SQPExtension.h"; sourceTree = "<group>"; };
+		71C5A8281D06B4A3005CF025 /* NSDate+SQPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SQPExtension.m"; sourceTree = "<group>"; };
+		71C5A8291D06B4A3005CF025 /* UIBarButtonItem+SQPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SQPExtension.h"; sourceTree = "<group>"; };
+		71C5A82A1D06B4A3005CF025 /* UIBarButtonItem+SQPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SQPExtension.m"; sourceTree = "<group>"; };
+		71C5A82B1D06B4A3005CF025 /* UIView+SQPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SQPExtension.h"; sourceTree = "<group>"; };
+		71C5A82C1D06B4A3005CF025 /* UIView+SQPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SQPExtension.m"; sourceTree = "<group>"; };
+		71C5A82E1D06B4A3005CF025 /* SQPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPNavigationController.h; sourceTree = "<group>"; };
+		71C5A82F1D06B4A3005CF025 /* SQPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPNavigationController.m; sourceTree = "<group>"; };
+		71C5A8301D06B4A3005CF025 /* SQPPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPPublishViewController.h; sourceTree = "<group>"; };
+		71C5A8311D06B4A3005CF025 /* SQPPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPPublishViewController.m; sourceTree = "<group>"; };
+		71C5A8321D06B4A3005CF025 /* SQPPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPPublishViewController.xib; sourceTree = "<group>"; };
+		71C5A8331D06B4A3005CF025 /* SQPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTabBarController.h; sourceTree = "<group>"; };
+		71C5A8341D06B4A3005CF025 /* SQPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTabBarController.m; sourceTree = "<group>"; };
+		71C5A8391D06B4A3005CF025 /* SQPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQPConst.h; path = "Classes/Other-其他/SQPConst.h"; sourceTree = "<group>"; };
+		71C5A83A1D06B4A3005CF025 /* SQPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQPConst.m; path = "Classes/Other-其他/SQPConst.m"; sourceTree = "<group>"; };
+		71C5A83C1D06B4A3005CF025 /* SQPPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPPushGuideView.h; sourceTree = "<group>"; };
+		71C5A83D1D06B4A3005CF025 /* SQPPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPPushGuideView.m; sourceTree = "<group>"; };
+		71C5A83E1D06B4A3005CF025 /* SQPPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPPushGuideView.xib; sourceTree = "<group>"; };
+		71C5A83F1D06B4A3005CF025 /* SQPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPTabBar.h; sourceTree = "<group>"; };
+		71C5A8401D06B4A3005CF025 /* SQPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPTabBar.m; sourceTree = "<group>"; };
+		71C5A8521D06B507005CF025 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		71C5A8531D06B8A4005CF025 /* SQPFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPFriendTrendsViewController.h; sourceTree = "<group>"; };
+		71C5A8541D06B8A4005CF025 /* SQPFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPFriendTrendsViewController.m; sourceTree = "<group>"; };
+		71C5A8561D06B8BE005CF025 /* SQPEssencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPEssencesViewController.h; sourceTree = "<group>"; };
+		71C5A8571D06B8BE005CF025 /* SQPEssencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPEssencesViewController.m; sourceTree = "<group>"; };
+		71C5A8591D06B8D1005CF025 /* SQPMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPMeViewController.h; sourceTree = "<group>"; };
+		71C5A85A1D06B8D1005CF025 /* SQPMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPMeViewController.m; sourceTree = "<group>"; };
+		71C5A85C1D06B8E3005CF025 /* SQPNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPNewViewController.h; sourceTree = "<group>"; };
+		71C5A85D1D06B8E3005CF025 /* SQPNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPNewViewController.m; sourceTree = "<group>"; };
+		71C5A8AB1D06BAB7005CF025 /* SQPVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPVerticalButton.h; sourceTree = "<group>"; };
+		71C5A8AC1D06BAB7005CF025 /* SQPVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPVerticalButton.m; sourceTree = "<group>"; };
+		71F50B8F1D1286C500E57A47 /* UIImageView+SQPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SQPExtension.h"; sourceTree = "<group>"; };
+		71F50B901D1286C500E57A47 /* UIImageView+SQPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SQPExtension.m"; sourceTree = "<group>"; };
+		8C37AA528DF114D2EF989D7C /* Pods-APP__白死不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APP__白死不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-APP__白死不得姐/Pods-APP__白死不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		D0FE8C4ED048909CFF7BF1C2 /* Pods_APP_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_APP_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71C5A7D91D06B46A005CF025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D1A47D90EEBD1AA330AFA4 /* Pods_APP_______.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C5A7F21D06B46A005CF025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C5A7FD1D06B46A005CF025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9F11FC83CD61EBCB63979F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08FEA7C3FD022FEDA6356C0C /* Pods-APP__白死不得姐.debug.xcconfig */,
+				8C37AA528DF114D2EF989D7C /* Pods-APP__白死不得姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71C5A7D31D06B46A005CF025 = {
+			isa = PBXGroup;
+			children = (
+				71C5A7DE1D06B46A005CF025 /* APP__白死不得姐 */,
+				71C5A7F81D06B46A005CF025 /* APP__白死不得姐Tests */,
+				71C5A8031D06B46A005CF025 /* APP__白死不得姐UITests */,
+				71C5A7DD1D06B46A005CF025 /* Products */,
+				0D9F11FC83CD61EBCB63979F /* Pods */,
+				BBDB26573165CE46F3A3BD66 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71C5A7DD1D06B46A005CF025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A7DC1D06B46A005CF025 /* APP__白死不得姐.app */,
+				71C5A7F51D06B46A005CF025 /* APP__白死不得姐Tests.xctest */,
+				71C5A8001D06B46A005CF025 /* APP__白死不得姐UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C5A7DE1D06B46A005CF025 /* APP__白死不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8121D06B4A3005CF025 /* Classes */,
+				71C5A7E21D06B46A005CF025 /* AppDelegate.h */,
+				71C5A7E31D06B46A005CF025 /* AppDelegate.m */,
+				716E82DD1D0CFFCF00693E66 /* Foundation+Log.m */,
+				71C5A8521D06B507005CF025 /* PrefixHeader.pch */,
+				71C5A8391D06B4A3005CF025 /* SQPConst.h */,
+				71C5A83A1D06B4A3005CF025 /* SQPConst.m */,
+				71C5A7EB1D06B46A005CF025 /* Assets.xcassets */,
+				71C5A7F01D06B46A005CF025 /* Info.plist */,
+				71C5A7DF1D06B46A005CF025 /* Supporting Files */,
+			);
+			path = "APP__白死不得姐";
+			sourceTree = "<group>";
+		};
+		71C5A7DF1D06B46A005CF025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A7E01D06B46A005CF025 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71C5A7F81D06B46A005CF025 /* APP__白死不得姐Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A7F91D06B46A005CF025 /* APP_______Tests.m */,
+				71C5A7FB1D06B46A005CF025 /* Info.plist */,
+			);
+			path = "APP__白死不得姐Tests";
+			sourceTree = "<group>";
+		};
+		71C5A8031D06B46A005CF025 /* APP__白死不得姐UITests */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8041D06B46A005CF025 /* APP_______UITests.m */,
+				71C5A8061D06B46A005CF025 /* Info.plist */,
+			);
+			path = "APP__白死不得姐UITests";
+			sourceTree = "<group>";
+		};
+		71C5A8121D06B4A3005CF025 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8131D06B4A3005CF025 /* Essences-精华 */,
+				71C5A81F1D06B4A3005CF025 /* New-新帖 */,
+				71C5A81B1D06B4A3005CF025 /* Me-我 */,
+				71C5A8171D06B4A3005CF025 /* FriendTrends-关注 */,
+				71C5A8231D06B4A3005CF025 /* Other-其他 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		71C5A8131D06B4A3005CF025 /* Essences-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8141D06B4A3005CF025 /* Controller */,
+				71C5A8151D06B4A3005CF025 /* Model */,
+				71C5A8161D06B4A3005CF025 /* View */,
+			);
+			path = "Essences-精华";
+			sourceTree = "<group>";
+		};
+		71C5A8141D06B4A3005CF025 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8561D06B8BE005CF025 /* SQPEssencesViewController.h */,
+				71C5A8571D06B8BE005CF025 /* SQPEssencesViewController.m */,
+				716E83031D0D3DC100693E66 /* SQPRecommendTagsViewController.h */,
+				716E83041D0D3DC100693E66 /* SQPRecommendTagsViewController.m */,
+				716E83061D0D3DD900693E66 /* SQPTopicViewController.h */,
+				716E83071D0D3DD900693E66 /* SQPTopicViewController.m */,
+				716E83091D0D3DFA00693E66 /* SQPShowPictureViewController.h */,
+				716E830A1D0D3DFA00693E66 /* SQPShowPictureViewController.m */,
+				716E830B1D0D3DFA00693E66 /* SQPShowPictureViewController.xib */,
+				716E830E1D0D3E1500693E66 /* SQPCommentViewController.h */,
+				716E830F1D0D3E1500693E66 /* SQPCommentViewController.m */,
+				716E83101D0D3E1500693E66 /* SQPCommentViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71C5A8151D06B4A3005CF025 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				716E83131D0D3E2E00693E66 /* SQPRecommendTag.h */,
+				716E83141D0D3E2E00693E66 /* SQPRecommendTag.m */,
+				716E83161D0D3E4500693E66 /* SQPTopic.h */,
+				716E83171D0D3E4500693E66 /* SQPTopic.m */,
+				716E83191D0D3E5B00693E66 /* SQPUser.h */,
+				716E831A1D0D3E5B00693E66 /* SQPUser.m */,
+				716E831C1D0D3E7100693E66 /* SQPComment.h */,
+				716E831D1D0D3E7100693E66 /* SQPComment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71C5A8161D06B4A3005CF025 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				716E831F1D0D3EB500693E66 /* SQPProgressView.h */,
+				716E83201D0D3EB500693E66 /* SQPProgressView.m */,
+				716E83221D0D3F0400693E66 /* SQPRecommendTagCell.h */,
+				716E83231D0D3F0400693E66 /* SQPRecommendTagCell.m */,
+				716E83241D0D3F0400693E66 /* SQPRecommendTagCell.xib */,
+				716E83271D0D3F1F00693E66 /* SQPTopicCell.h */,
+				716E83281D0D3F1F00693E66 /* SQPTopicCell.m */,
+				716E83291D0D3F1F00693E66 /* SQPTopicCell.xib */,
+				716E832C1D0D3F3B00693E66 /* SQPTopicPictureView.h */,
+				716E832D1D0D3F3B00693E66 /* SQPTopicPictureView.m */,
+				716E832F1D0D3F4A00693E66 /* SQPTopicPictureView.xib */,
+				716E83311D0D3F7000693E66 /* SQPTopicVoiceView.h */,
+				716E83321D0D3F7000693E66 /* SQPTopicVoiceView.m */,
+				716E83361D0D3F9600693E66 /* SQPTopicVoiceView.xib */,
+				716E83381D0D3FB400693E66 /* SQPTopicVideoView.h */,
+				716E83391D0D3FB400693E66 /* SQPTopicVideoView.m */,
+				716E833B1D0D3FC200693E66 /* SQPTopicVideoView.xib */,
+				716E833D1D0D400300693E66 /* SQPCommentHeaderView.h */,
+				716E833E1D0D400300693E66 /* SQPCommentHeaderView.m */,
+				716E83401D0D403C00693E66 /* SQPCommentCell.h */,
+				716E83411D0D403C00693E66 /* SQPCommentCell.m */,
+				716E83421D0D403C00693E66 /* SQPCommentCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71C5A8171D06B4A3005CF025 /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8181D06B4A3005CF025 /* Controller */,
+				71C5A8191D06B4A3005CF025 /* Model */,
+				71C5A81A1D06B4A3005CF025 /* View */,
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		71C5A8181D06B4A3005CF025 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8531D06B8A4005CF025 /* SQPFriendTrendsViewController.h */,
+				71C5A8541D06B8A4005CF025 /* SQPFriendTrendsViewController.m */,
+				716E82DF1D0D00D100693E66 /* SQPFriendTrendsViewController.xib */,
+				716E82E11D0D021100693E66 /* SQPRecommendViewController.h */,
+				716E82E21D0D021100693E66 /* SQPRecommendViewController.m */,
+				716E82E31D0D021100693E66 /* SQPRecommendViewController.xib */,
+				716E82F91D0D0B4600693E66 /* SQPLoginRegisterViewController.h */,
+				716E82FA1D0D0B4600693E66 /* SQPLoginRegisterViewController.m */,
+				716E82FC1D0D0B5800693E66 /* SQPLoginRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71C5A8191D06B4A3005CF025 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				716E82EB1D0D02F100693E66 /* SQPRecommendCategory.h */,
+				716E82EC1D0D02F100693E66 /* SQPRecommendCategory.m */,
+				716E82EE1D0D030F00693E66 /* SQPRecommendUser.h */,
+				716E82EF1D0D030F00693E66 /* SQPRecommendUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71C5A81A1D06B4A3005CF025 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8AB1D06BAB7005CF025 /* SQPVerticalButton.h */,
+				71C5A8AC1D06BAB7005CF025 /* SQPVerticalButton.m */,
+				716E82E61D0D02AD00693E66 /* SQPRecommendCategoryCell.h */,
+				716E82E71D0D02AD00693E66 /* SQPRecommendCategoryCell.m */,
+				716E82E81D0D02AD00693E66 /* SQPRecommendCategoryCell.xib */,
+				716E82F11D0D033200693E66 /* SQPRecommendUserCell.h */,
+				716E82F21D0D033200693E66 /* SQPRecommendUserCell.m */,
+				716E82F41D0D036000693E66 /* SQPRecommendUserCell.xib */,
+				716E82F61D0D0AF200693E66 /* SQPTextField.h */,
+				716E82F71D0D0AF200693E66 /* SQPTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71C5A81B1D06B4A3005CF025 /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A81C1D06B4A3005CF025 /* Controller */,
+				71C5A81D1D06B4A3005CF025 /* Model */,
+				71C5A81E1D06B4A3005CF025 /* View */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		71C5A81C1D06B4A3005CF025 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8591D06B8D1005CF025 /* SQPMeViewController.h */,
+				71C5A85A1D06B8D1005CF025 /* SQPMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71C5A81D1D06B4A3005CF025 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71956D3B1D1878860079C782 /* SQPSquare.h */,
+				71956D3C1D1878860079C782 /* SQPSquare.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71C5A81E1D06B4A3005CF025 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				719111231D17D30400757270 /* SQPMeTableViewCell.h */,
+				719111241D17D30500757270 /* SQPMeTableViewCell.m */,
+				719111261D17DBD400757270 /* SQPMeFooterView.h */,
+				719111271D17DBD400757270 /* SQPMeFooterView.m */,
+				71956D3E1D1878860079C782 /* SQPSquareButton.h */,
+				71956D3F1D1878860079C782 /* SQPSquareButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71C5A81F1D06B4A3005CF025 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8201D06B4A3005CF025 /* Controller */,
+				71C5A8211D06B4A3005CF025 /* Model */,
+				71C5A8221D06B4A3005CF025 /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		71C5A8201D06B4A3005CF025 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A85C1D06B8E3005CF025 /* SQPNewViewController.h */,
+				71C5A85D1D06B8E3005CF025 /* SQPNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71C5A8211D06B4A3005CF025 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71C5A8221D06B4A3005CF025 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71C5A8231D06B4A3005CF025 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8261D06B4A3005CF025 /* Category */,
+				71C5A82D1D06B4A3005CF025 /* Controller */,
+				71C5A83B1D06B4A3005CF025 /* View */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		71C5A8261D06B4A3005CF025 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8271D06B4A3005CF025 /* NSDate+SQPExtension.h */,
+				71C5A8281D06B4A3005CF025 /* NSDate+SQPExtension.m */,
+				71C5A8291D06B4A3005CF025 /* UIBarButtonItem+SQPExtension.h */,
+				71C5A82A1D06B4A3005CF025 /* UIBarButtonItem+SQPExtension.m */,
+				71C5A82B1D06B4A3005CF025 /* UIView+SQPExtension.h */,
+				71C5A82C1D06B4A3005CF025 /* UIView+SQPExtension.m */,
+				715CC7531D129F320060B3C5 /* UIImage+SQPExtension.h */,
+				715CC7541D129F330060B3C5 /* UIImage+SQPExtension.m */,
+				71F50B8F1D1286C500E57A47 /* UIImageView+SQPExtension.h */,
+				71F50B901D1286C500E57A47 /* UIImageView+SQPExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		71C5A82D1D06B4A3005CF025 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A8331D06B4A3005CF025 /* SQPTabBarController.h */,
+				71C5A8341D06B4A3005CF025 /* SQPTabBarController.m */,
+				71C5A82E1D06B4A3005CF025 /* SQPNavigationController.h */,
+				71C5A82F1D06B4A3005CF025 /* SQPNavigationController.m */,
+				71C5A8301D06B4A3005CF025 /* SQPPublishViewController.h */,
+				71C5A8311D06B4A3005CF025 /* SQPPublishViewController.m */,
+				71C5A8321D06B4A3005CF025 /* SQPPublishViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71C5A83B1D06B4A3005CF025 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71C5A83F1D06B4A3005CF025 /* SQPTabBar.h */,
+				71C5A8401D06B4A3005CF025 /* SQPTabBar.m */,
+				71C5A83C1D06B4A3005CF025 /* SQPPushGuideView.h */,
+				71C5A83D1D06B4A3005CF025 /* SQPPushGuideView.m */,
+				71C5A83E1D06B4A3005CF025 /* SQPPushGuideView.xib */,
+				714281821D0FF71B00379436 /* SQPTopicWindow.h */,
+				714281831D0FF71B00379436 /* SQPTopicWindow.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBDB26573165CE46F3A3BD66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE8C4ED048909CFF7BF1C2 /* Pods_APP_______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71C5A7DB1D06B46A005CF025 /* APP__白死不得姐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C5A8091D06B46A005CF025 /* Build configuration list for PBXNativeTarget "APP__白死不得姐" */;
+			buildPhases = (
+				94ADFC3E5F6E7CED65530C5A /* [CP] Check Pods Manifest.lock */,
+				71C5A7D81D06B46A005CF025 /* Sources */,
+				71C5A7D91D06B46A005CF025 /* Frameworks */,
+				71C5A7DA1D06B46A005CF025 /* Resources */,
+				6BA9603E9656749A5F5B92CE /* [CP] Embed Pods Frameworks */,
+				7C7FCB34D612FA2B4022C529 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APP__白死不得姐";
+			productName = "APP__白死不得姐";
+			productReference = 71C5A7DC1D06B46A005CF025 /* APP__白死不得姐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71C5A7F41D06B46A005CF025 /* APP__白死不得姐Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C5A80C1D06B46A005CF025 /* Build configuration list for PBXNativeTarget "APP__白死不得姐Tests" */;
+			buildPhases = (
+				71C5A7F11D06B46A005CF025 /* Sources */,
+				71C5A7F21D06B46A005CF025 /* Frameworks */,
+				71C5A7F31D06B46A005CF025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C5A7F71D06B46A005CF025 /* PBXTargetDependency */,
+			);
+			name = "APP__白死不得姐Tests";
+			productName = "APP__白死不得姐Tests";
+			productReference = 71C5A7F51D06B46A005CF025 /* APP__白死不得姐Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71C5A7FF1D06B46A005CF025 /* APP__白死不得姐UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C5A80F1D06B46A005CF025 /* Build configuration list for PBXNativeTarget "APP__白死不得姐UITests" */;
+			buildPhases = (
+				71C5A7FC1D06B46A005CF025 /* Sources */,
+				71C5A7FD1D06B46A005CF025 /* Frameworks */,
+				71C5A7FE1D06B46A005CF025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C5A8021D06B46A005CF025 /* PBXTargetDependency */,
+			);
+			name = "APP__白死不得姐UITests";
+			productName = "APP__白死不得姐UITests";
+			productReference = 71C5A8001D06B46A005CF025 /* APP__白死不得姐UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71C5A7D41D06B46A005CF025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SQP;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "China-SQP";
+				TargetAttributes = {
+					71C5A7DB1D06B46A005CF025 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					71C5A7F41D06B46A005CF025 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 71C5A7DB1D06B46A005CF025;
+					};
+					71C5A7FF1D06B46A005CF025 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 71C5A7DB1D06B46A005CF025;
+					};
+				};
+			};
+			buildConfigurationList = 71C5A7D71D06B46A005CF025 /* Build configuration list for PBXProject "APP__白死不得姐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71C5A7D31D06B46A005CF025;
+			productRefGroup = 71C5A7DD1D06B46A005CF025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71C5A7DB1D06B46A005CF025 /* APP__白死不得姐 */,
+				71C5A7F41D06B46A005CF025 /* APP__白死不得姐Tests */,
+				71C5A7FF1D06B46A005CF025 /* APP__白死不得姐UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71C5A7DA1D06B46A005CF025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716E83371D0D3F9600693E66 /* SQPTopicVoiceView.xib in Resources */,
+				716E832B1D0D3F1F00693E66 /* SQPTopicCell.xib in Resources */,
+				71C5A84F1D06B4A3005CF025 /* SQPPushGuideView.xib in Resources */,
+				71C5A7EC1D06B46A005CF025 /* Assets.xcassets in Resources */,
+				71C5A8491D06B4A3005CF025 /* SQPPublishViewController.xib in Resources */,
+				716E83261D0D3F0400693E66 /* SQPRecommendTagCell.xib in Resources */,
+				716E82F51D0D036000693E66 /* SQPRecommendUserCell.xib in Resources */,
+				716E83301D0D3F4A00693E66 /* SQPTopicPictureView.xib in Resources */,
+				716E830D1D0D3DFA00693E66 /* SQPShowPictureViewController.xib in Resources */,
+				716E82FD1D0D0B5800693E66 /* SQPLoginRegisterViewController.xib in Resources */,
+				716E83441D0D403C00693E66 /* SQPCommentCell.xib in Resources */,
+				716E833C1D0D3FC200693E66 /* SQPTopicVideoView.xib in Resources */,
+				716E82E01D0D00D100693E66 /* SQPFriendTrendsViewController.xib in Resources */,
+				716E83121D0D3E1500693E66 /* SQPCommentViewController.xib in Resources */,
+				716E82E51D0D021100693E66 /* SQPRecommendViewController.xib in Resources */,
+				716E82EA1D0D02AD00693E66 /* SQPRecommendCategoryCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C5A7F31D06B46A005CF025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C5A7FE1D06B46A005CF025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BA9603E9656749A5F5B92CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APP__白死不得姐/Pods-APP__白死不得姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C7FCB34D612FA2B4022C529 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APP__白死不得姐/Pods-APP__白死不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94ADFC3E5F6E7CED65530C5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71C5A7D81D06B46A005CF025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716E82FB1D0D0B4600693E66 /* SQPLoginRegisterViewController.m in Sources */,
+				71C5A8551D06B8A4005CF025 /* SQPFriendTrendsViewController.m in Sources */,
+				71C5A84D1D06B4A3005CF025 /* SQPConst.m in Sources */,
+				71C5A8441D06B4A3005CF025 /* NSDate+SQPExtension.m in Sources */,
+				719111251D17D30500757270 /* SQPMeTableViewCell.m in Sources */,
+				715CC7551D129F330060B3C5 /* UIImage+SQPExtension.m in Sources */,
+				716E82F01D0D030F00693E66 /* SQPRecommendUser.m in Sources */,
+				71956D3D1D1878860079C782 /* SQPSquare.m in Sources */,
+				716E83151D0D3E2E00693E66 /* SQPRecommendTag.m in Sources */,
+				716E83251D0D3F0400693E66 /* SQPRecommendTagCell.m in Sources */,
+				714281841D0FF71B00379436 /* SQPTopicWindow.m in Sources */,
+				71C5A8451D06B4A3005CF025 /* UIBarButtonItem+SQPExtension.m in Sources */,
+				71C5A8581D06B8BE005CF025 /* SQPEssencesViewController.m in Sources */,
+				716E83331D0D3F7000693E66 /* SQPTopicVoiceView.m in Sources */,
+				716E83051D0D3DC100693E66 /* SQPRecommendTagsViewController.m in Sources */,
+				716E832E1D0D3F3B00693E66 /* SQPTopicPictureView.m in Sources */,
+				71C5A84E1D06B4A3005CF025 /* SQPPushGuideView.m in Sources */,
+				716E82E41D0D021100693E66 /* SQPRecommendViewController.m in Sources */,
+				719111281D17DBD400757270 /* SQPMeFooterView.m in Sources */,
+				716E82E91D0D02AD00693E66 /* SQPRecommendCategoryCell.m in Sources */,
+				716E83111D0D3E1500693E66 /* SQPCommentViewController.m in Sources */,
+				716E82DE1D0CFFCF00693E66 /* Foundation+Log.m in Sources */,
+				716E831E1D0D3E7100693E66 /* SQPComment.m in Sources */,
+				716E82ED1D0D02F100693E66 /* SQPRecommendCategory.m in Sources */,
+				716E833A1D0D3FB400693E66 /* SQPTopicVideoView.m in Sources */,
+				716E833F1D0D400300693E66 /* SQPCommentHeaderView.m in Sources */,
+				71C5A8AD1D06BAB7005CF025 /* SQPVerticalButton.m in Sources */,
+				71C5A8481D06B4A3005CF025 /* SQPPublishViewController.m in Sources */,
+				71C5A8501D06B4A3005CF025 /* SQPTabBar.m in Sources */,
+				71C5A8471D06B4A3005CF025 /* SQPNavigationController.m in Sources */,
+				716E832A1D0D3F1F00693E66 /* SQPTopicCell.m in Sources */,
+				71C5A84A1D06B4A3005CF025 /* SQPTabBarController.m in Sources */,
+				71C5A8461D06B4A3005CF025 /* UIView+SQPExtension.m in Sources */,
+				71C5A85B1D06B8D1005CF025 /* SQPMeViewController.m in Sources */,
+				716E830C1D0D3DFA00693E66 /* SQPShowPictureViewController.m in Sources */,
+				716E82F81D0D0AF200693E66 /* SQPTextField.m in Sources */,
+				71956D401D1878860079C782 /* SQPSquareButton.m in Sources */,
+				716E831B1D0D3E5B00693E66 /* SQPUser.m in Sources */,
+				716E82F31D0D033200693E66 /* SQPRecommendUserCell.m in Sources */,
+				716E83211D0D3EB500693E66 /* SQPProgressView.m in Sources */,
+				716E83431D0D403C00693E66 /* SQPCommentCell.m in Sources */,
+				71C5A7E41D06B46A005CF025 /* AppDelegate.m in Sources */,
+				716E83181D0D3E4500693E66 /* SQPTopic.m in Sources */,
+				71C5A85E1D06B8E3005CF025 /* SQPNewViewController.m in Sources */,
+				71C5A7E11D06B46A005CF025 /* main.m in Sources */,
+				716E83081D0D3DD900693E66 /* SQPTopicViewController.m in Sources */,
+				71F50B911D1286C500E57A47 /* UIImageView+SQPExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C5A7F11D06B46A005CF025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C5A7FA1D06B46A005CF025 /* APP_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C5A7FC1D06B46A005CF025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C5A8051D06B46A005CF025 /* APP_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71C5A7F71D06B46A005CF025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C5A7DB1D06B46A005CF025 /* APP__白死不得姐 */;
+			targetProxy = 71C5A7F61D06B46A005CF025 /* PBXContainerItemProxy */;
+		};
+		71C5A8021D06B46A005CF025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C5A7DB1D06B46A005CF025 /* APP__白死不得姐 */;
+			targetProxy = 71C5A8011D06B46A005CF025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71C5A8071D06B46A005CF025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71C5A8081D06B46A005CF025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71C5A80A1D06B46A005CF025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FEA7C3FD022FEDA6356C0C /* Pods-APP__白死不得姐.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "APP__白死不得姐/PrefixHeader.pch";
+				INFOPLIST_FILE = "APP__白死不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SQP.com.APP-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71C5A80B1D06B46A005CF025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C37AA528DF114D2EF989D7C /* Pods-APP__白死不得姐.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "APP__白死不得姐/PrefixHeader.pch";
+				INFOPLIST_FILE = "APP__白死不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SQP.com.APP-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71C5A80D1D06B46A005CF025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "APP__白死不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SQP.com.APP-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APP__白死不得姐.app/APP__白死不得姐";
+			};
+			name = Debug;
+		};
+		71C5A80E1D06B46A005CF025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "APP__白死不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SQP.com.APP-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APP__白死不得姐.app/APP__白死不得姐";
+			};
+			name = Release;
+		};
+		71C5A8101D06B46A005CF025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "APP__白死不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SQP.com.APP-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "APP__白死不得姐";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		71C5A8111D06B46A005CF025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "APP__白死不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SQP.com.APP-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "APP__白死不得姐";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71C5A7D71D06B46A005CF025 /* Build configuration list for PBXProject "APP__白死不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C5A8071D06B46A005CF025 /* Debug */,
+				71C5A8081D06B46A005CF025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C5A8091D06B46A005CF025 /* Build configuration list for PBXNativeTarget "APP__白死不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C5A80A1D06B46A005CF025 /* Debug */,
+				71C5A80B1D06B46A005CF025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C5A80C1D06B46A005CF025 /* Build configuration list for PBXNativeTarget "APP__白死不得姐Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C5A80D1D06B46A005CF025 /* Debug */,
+				71C5A80E1D06B46A005CF025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C5A80F1D06B46A005CF025 /* Build configuration list for PBXNativeTarget "APP__白死不得姐UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C5A8101D06B46A005CF025 /* Debug */,
+				71C5A8111D06B46A005CF025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71C5A7D41D06B46A005CF025 /* Project object */;
+}

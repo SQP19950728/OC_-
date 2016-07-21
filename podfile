@@ -1,0 +1,14 @@
+platform:ios,9.0
+use_frameworks!
+
+target 'APP__白死不得姐'do
+
+pod "pop"
+pod "DACircularProgress"
+pod "MJExtension"
+pod "SDWebImage"
+pod "MJRefresh"
+pod "AFNetworking"
+pod "SVProgressHUD"
+end
+
