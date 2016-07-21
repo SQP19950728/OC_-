@@ -89,7 +89,7 @@
     
     // 底部的红色指示器
     UIView *indicatorView = [[UIView alloc] init];
-    indicatorView.backgroundColor = [UIColor redColor];
+    indicatorView.backgroundColor = [UIColor cyanColor];
     indicatorView.height = 2;
     indicatorView.tag = -1;
     indicatorView.y = titlesView.height - indicatorView.height;
